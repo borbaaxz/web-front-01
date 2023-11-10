@@ -1,0 +1,56 @@
+* {
+    list-style: nome;
+}
+
+
+
+body {
+    background: rgb(138, 118, 250);
+}
+
+.container {
+    border: ipx solid rgb(184, 132, 236);
+    max-width: 500px;
+    margin: 20px auto;
+    background: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-control {
+    margin: 25px;
+
+}
+
+.form-control input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    outline: 0;
+
+}
+
+button {
+    margin-bottom: 10px;
+    background: rgb(60, 255, 0);
+    border: 0;
+    padding: 10px;
+    color: gray;
+    cursor: pointer;
+
+}
+
+.erro {
+    color: red;
+    text-align: left;
+    margin-left: 32px;
+
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
